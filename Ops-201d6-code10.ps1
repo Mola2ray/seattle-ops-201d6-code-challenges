@@ -36,6 +36,6 @@ Get-Process iexplore | Stop-Process -Name iexplore
  
 #Kill a process by its Process Identification Number. Choose a process whose termination won’t destabilize the system, such as Internet Explorer or MS Edge.
  
-taskill /F /PID <PID>
+Get-Process -Id 160
 
 # End
